@@ -1,5 +1,9 @@
-Amazon Landing Page
+Amazon E-commerce Website clone
 
--> Made using React
+Made using React:
 
-New Functions :
+Sign in page,
+Add to cart function,
+Category wise Products
+
+
