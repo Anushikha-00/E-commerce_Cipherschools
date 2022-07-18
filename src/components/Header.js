@@ -24,8 +24,8 @@ function Header() {
           <div className="header__nav">
               {/* <Link to="/login" className="header__link"> */}
                   <div className="header__option">
-                      <span className="header__optionLineOne">Hello {user ? user : ",Sign in"}</span>
-                      <span className="header__optionLineTwo">Account & {user ? "Out" : "Lists"}</span>
+                      <span className="header__optionLineOne">Hello {user ? user : "Guest"}</span>
+                      <span className="header__optionLineTwo">Sign {user ? "Out" : "In"}</span>
                   </div>
               {/* </Link> */}
               {/* <Link to="/" className="header__link"> */}
