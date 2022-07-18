@@ -1,26 +1,31 @@
 import React from 'react'
 import './Login.css';
-import { Link } from 'react-router-dom';
-import { useStateValue } from './components/StateProvider';
-function Login() {
-    const [{ }, dispatch] = useStateValue();
-    const addUser = (event) => {
-        dispatch({
-            type: "ADD_USER",
-            user: event.target.value
-        })
-        console.log(event.target.value)
-    }
-    const login = event => {
-        event.preventDefault();
+import { Link, useHistory } from "react-router-dom";
 
-    }
-    const register = event => {
-        event.preventDefault();
-    }
-    const setUserName = (event) => {
-        addUser(event);
-    }
+import { useStateValue } from '../components/StateProvider';
+//import { auth } from "./firebase";
+    // will only run once when the app component loads...
+  
+    function Login() {
+        const [{ }, dispatch] = useStateValue();
+        const addUser = (event) => {
+            dispatch({
+                type: "ADD_USER",
+                user: event.target.value
+            })
+            console.log(event.target.value)
+        }
+        const login = event => {
+            event.preventDefault();
+    
+        }
+        const register = event => {
+            event.preventDefault();
+        }
+        const setUserName = (event) => {
+            addUser(event);
+        }
+
     return (
         <div className="login">
             <Link to="/">
@@ -57,3 +62,6 @@ function Login() {
 }
 
 export default Login
+
+
+

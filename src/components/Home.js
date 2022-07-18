@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import Product from './Category';
+import Product from './Product';
 function Home() {
     return (
         <div className="home">
@@ -15,14 +15,14 @@ function Home() {
                     title="Men's Clothing"
                     price={199.00}
                     rating={3}
-                    image="https://images-na.ssl-images-amazon.com/images/I/71SUSc-97RL._UL1280_.jpg"
+                    image="https://getketchadmin.getketch.com/product/8905404323248/660/KHSH000336_1.jpg"
                 />
                 <Product
                     id={12312}
                     title="Women's Clothing"
                     price={4051.00}
                     rating={3}
-                    image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
+                    image="https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/g/g/gg-1001-1.jpg?rnd=20200526195200"
                 />
             </div>
             <div className="home__row">
@@ -31,21 +31,21 @@ function Home() {
                     title="Electronics"
                     price={883.00}
                     rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/81ghNg%2BDC9L._SL1500_.jpg"
+                    image="https://image.shutterstock.com/image-photo/top-view-designer-desk-600w-226428235.jpg"
                 />
                 <Product
                     id={12312}
                     title="Jewellery"
                     price={950.99}
                     rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/51imLrht6lL._SX389_BO1,204,203,200_.jpg"
+                    image="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQarXeC82I7bEMI29RIcamZqbjzxPkO6nW-VlVNI23HLaxHHev9e3glla93e8CrtjISfoGNPf3x2_ae&usqp=CAc"
                 />
                 <Product
                     id={12312}
                     title="Kitchen Appliances"
                     price={140.99}
                     rating={4}
-                    image="https://images-na.ssl-images-amazon.com/images/I/41EsI0Fsf1L.jpg"
+                    image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNa1PEdXMVH_12Sghl2b0YF0-3vu-EtCPJHITpntmWiUVywjXO8a8wwH8hK9CnYaSydRM&usqp=CAU"
                 />
             </div>
             <div className="home__row">
@@ -54,7 +54,7 @@ function Home() {
                     title="Laptops"
                     price={710.99}
                     rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/61jj-MeJbvL._SL1200_.jpg"
+                    image="https://image.shutterstock.com/image-photo/top-view-designer-desk-600w-226428235.jpg"
                 />
             </div>
         </div>
